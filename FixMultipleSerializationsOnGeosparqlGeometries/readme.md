@@ -1,5 +1,6 @@
 # Fix Multiple Serializations on Geosparql Geometries (FiMuSGG)
 FiMuSGG is a simple library or executable to fix multiple serializations on geosparql geometries.
+
 ### Compile
 ##### Pre-requisites
 * Java 1.7 or later. See: http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
@@ -7,7 +8,7 @@ FiMuSGG is a simple library or executable to fix multiple serializations on geos
 
 Go to to project folder and execute the next cmd or bash command:
 ```sh
- mvn install
+ mvn clean install
 ```
 When finished, Maven will be generated a 'target' folder.
 ### Use as library
@@ -48,7 +49,7 @@ In this example the printed value is:
 > MultiPolygon(((2 3),(4 5),(6 7)),((2 1,5 6)),((2 4,3 4)),((9 10,7 8)))
 
 ### Use as executable
-Go to target folder and exectute (VERSION and FILE.TTL need to be replaced):
+Go to target folder and execute (VERSION and FILE.TTL need to be replaced):
 ```sh
 java -Xmx2048m -Xms1024m -jar FixMultipleSerializationsOnGeosparqlGeometries-VERSION-jar-with-dependencies.jar FILE.TTL [-simpleGeo | -multipleGeo]
 ```
