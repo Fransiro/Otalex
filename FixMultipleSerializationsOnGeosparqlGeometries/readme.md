@@ -1,3 +1,8 @@
+[![Java 1.7 or later](https://img.shields.io/badge/Java-1.7%20or%20later-40c4ff.svg)](https://www.java.com/es/download/help/index_installing.xml?j=7)
+[![Apache Jena 2.13.0](https://img.shields.io/badge/Apache%20Jena-2.13.0-40c4ff.svg)](https://jena.apache.org/)
+[![Build Maven](https://img.shields.io/badge/build-Maven-lightgrey.svg)](https://maven.apache.org/)
+[![Version 0.0.1](https://img.shields.io/badge/Version-0.0.1-lightgrey.svg)](#version)  
+
 # Fix Multiple Serializations on Geosparql Geometries (FiMuSGG)
 FiMuSGG is a simple library or executable to fix multiple serializations on geosparql geometries.
 
